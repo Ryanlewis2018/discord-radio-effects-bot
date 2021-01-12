@@ -17,16 +17,24 @@ This is simple script i made in python to add effects to discord channels for RP
 
 ### Requirements
 Python 3
+
 PIP
+
 discord.py
+
 discord.py[voice]
+
 python-dotenv
+
 ffmpeg.exe [LINK](https://ffmpeg.org/download.html#build-windows "LINK")
+
 Radio Effects of your choice [(Link to the ones i used)](https://www.lcpdfr.com/downloads/gta5mods/audio/10897-motorola-mdc1200-mic-clicks/# "(Link to the ones i used)")
 
 ### Installation 
 `pip install -U discord.py`
+
 `pip install -U discord.py[voice]`
+
 `pip install -U python-dotenv`
 
 place FFMPEG.exe and the audio files into the root folder (if using different audio files update the script with correct names)
