@@ -44,8 +44,6 @@ async def join(ctx):
 
 @client.command(pass_context=True)
 async def leave(ctx):
-    server = ctx.message.server
-    voice_client = client.voice_client_in(server)
-    await voice_client.disconect()
+    await ctx.voice_client.disconnect()
 
 client.run(TOKEN)
